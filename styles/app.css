@@ -3,7 +3,7 @@
 :root {
   --color-white: white;
   --color-darkblue: darkblue;
-  --bg-color-dark: rgb(1, 1, 68);
+  --bg-color-dark: rgb(19, 19, 107);
   --color-gold: gold;
 }
 
@@ -208,15 +208,15 @@
     100% 46.67%
   );
   background-color: var(--bg-color-dark);
-  transform: translateY(-500px);
-  padding: 500px 0 0 0;
+  transform: translateY(-600px);
+  padding: 500px 0 100px 0;
   color: #fff;
   position: relative;
   z-index: 10;
 }
 
 .health-check-container {
-  padding-top: 50px;
+  padding: 50px 0 0 0;
   max-width: 1100px;
   margin: 0 auto;
   display: flex;
@@ -240,4 +240,209 @@
   transform: translateY(-200px);
   z-index: 10;
   border-radius: 50%;
+}
+
+.health-para {
+  margin-top: 10px;
+  font-size: 35px;
+}
+
+/* Section financial core  */
+
+.financial-core {
+  max-width: 1100px;
+  margin: 0 auto;
+  transform: translateY(-1000px);
+  padding: 500px 0 0 0;
+}
+
+.financial-core .core-head {
+  line-height: 60px;
+  color: var(--bg-color-dark);
+  font-size: 60px;
+}
+
+.financial-core .core-head span {
+  color: #2e2e8c;
+}
+
+.core-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.core-container .core-img {
+  width: 400px;
+}
+
+.core-container .core-img2 {
+  width: 450px;
+}
+
+#core-para {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.core-para-1 {
+  color: #2e2e8c;
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.core-para-2 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.core-para-2 span {
+  color: var(--bg-color-dark);
+  font-weight: bold;
+}
+
+.core-para-3 {
+  font-size: 30px;
+}
+
+.core-view {
+  display: flex;
+  border: 1px solid black;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.view-left-item {
+  width: 50%;
+}
+
+.view-para {
+  font-size: 27px;
+}
+
+.view-para span {
+  color: var(--bg-color-dark);
+  font-weight: bold;
+}
+
+.quote {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.view-right-item {
+  height: 15rem;
+  margin-left: 4rem;
+  width: 27rem;
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 1.2rem;
+  background-color: rgba(128, 128, 128, 0.123);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.view-icon {
+  text-align: center;
+}
+
+.view {
+  height: 5rem;
+  width: 5rem;
+}
+
+.packages {
+  background-color: #fd7e14;
+  color: var(--color-white);
+  font-size: 1.2rem;
+  font-weight: 900;
+  padding: 0.7rem 1rem;
+  transform: translateY(15px) translateX(40px);
+  border-radius: 0.7rem;
+  position: absolute;
+}
+
+/* Section Taxes  */
+
+.Taxes {
+  background-color: var(--bg-color-dark);
+  transform: translateY(-900px);
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 0 100px 0;
+}
+
+.tax-container {
+}
+
+.tax-container > .tax-head {
+  line-height: 1;
+}
+
+.tax-container .tax-para {
+  line-height: 2;
+}
+
+.tax-head {
+  font-size: 3rem;
+  color: #fd7e14;
+}
+
+.tax-head span {
+  color: gold;
+}
+
+.tax-para {
+  font-size: 1.3rem;
+  color: rgba(255, 217, 0, 0.822);
+  margin-top: 1.2rem;
+  padding: 0 4rem 0 0;
+}
+
+.tax-box-content {
+  display: flex;
+}
+
+.tax-box {
+  border: 1px solid gold;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  margin-left: 0.8rem;
+  color: gold;
+}
+
+.tax-box-content-1 {
+  display: flex;
+}
+
+.tax-box-1 {
+  border: 1px solid gold;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  margin-left: 0.8rem;
+  color: gold;
+  text-align: center;
+}
+
+.tax-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10rem;
+  transform: translateY(100px);
+}
+
+.tax-img {
+  height: 20vh;
 }
