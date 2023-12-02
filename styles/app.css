@@ -373,15 +373,13 @@
 .Taxes {
   background-color: var(--bg-color-dark);
   transform: translateY(-900px);
+  margin-bottom: -800px;
 }
 
 .wrapper {
   max-width: 1100px;
   margin: 0 auto;
   padding: 80px 0 100px 0;
-}
-
-.tax-container {
 }
 
 .tax-container > .tax-head {
@@ -444,5 +442,89 @@
 }
 
 .tax-img {
-  height: 20vh;
+  height: 200px;
+}
+
+/* Section assurance  */
+
+.assurance {
+}
+
+.assurance-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.text-box {
+  margin: 20px 0;
+  line-height: 45px;
+}
+
+.text-box h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: var(--bg-color-dark);
+}
+
+.text-box h3 {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #2e2e8c;
+}
+
+.para-box p {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.para-box .with-image {
+  display: flex;
+}
+
+.with-image ul {
+  list-style: inside;
+  font-size: 25px;
+}
+
+.para-box .with-image .assurance-img {
+  float: right;
+  width: 450px;
+}
+
+.point-img {
+  margin: 20px;
+  width: 300px;
+}
+
+.assu-head {
+  margin: 30px 0;
+  color: #fd7e14;
+  font-size: 40px;
+  line-height: 38px;
+}
+
+.assu-head span {
+  color: #ec9349;
+}
+
+.assurance-box {
+  display: flex;
+}
+
+.assurance-box p {
+  width: 55%;
+}
+
+.assurance-box .assu-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.assu-para-1 {
+  font-size: 20px;
+}
+
+.assurance-box .assu-img-2 {
+  width: 300px;
 }
