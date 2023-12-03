@@ -952,14 +952,34 @@ tr td:not(:first-child) {
   text-align: center;
 }
 
-table tr:nth-child(2n + 1) {
-  background-color: rgba(128, 128, 128, 0.68);
-}
-
 table tr td.sub-heading {
   background-color: transparent;
 }
 
-table tr td i ^ table tr td:nth-child(2) {
-  background-color: rgba(236, 147, 73, 0.6);
+.gray-add {
+  background-color: #eee;
+}
+
+.light-orange {
+  background-color: #f5e0cf;
+}
+
+.light-orange-active {
+  background-color: #edd8c7;
+}
+
+.mild-orange {
+  background-color: #f4d1b5;
+}
+
+.mild-orange-active {
+  background-color: #edcaab;
+}
+
+.dark-orange-active {
+  background-color: #eeba91;
+}
+
+.dark-orange {
+  background-color: #f3bf97;
 }
