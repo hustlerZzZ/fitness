@@ -16,6 +16,15 @@
 
 /* Top Container with Image */
 
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 425px) {
+}
+
 .container {
   display: flex;
   background-color: var(--bg-color-dark);
@@ -46,6 +55,15 @@
 }
 
 /* Second Container below the Image */
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 425px) {
+}
 
 #content {
   padding: 250px 0 20px 0;
@@ -247,7 +265,28 @@
   font-size: 35px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .fitness-top-container {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 425px) {
+}
+
 /* Section financial core  */
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 425px) {
+}
 
 .financial-core {
   max-width: 1100px;
@@ -369,7 +408,6 @@
 }
 
 /* Section Taxes  */
-
 .Taxes {
   background-color: var(--bg-color-dark);
   transform: translateY(-900px);
@@ -445,7 +483,34 @@
   height: 200px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .tax-img {
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .tax-img {
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .tax-img {
+    height: 50px;
+  }
+}
+
 /* Section assurance  */
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 425px) {
+}
 
 .assurance {
 }
@@ -530,6 +595,15 @@
 }
 
 /* Management Section */
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 425px) {
+}
 
 .management {
   display: flex;
@@ -623,7 +697,7 @@
   height: 18rem;
   margin-left: 1rem;
   width: 27rem;
-  border: 1px solid gray;
+  border: 1px solid rgb(128, 128, 128);
   border-radius: 1.2rem;
   background-color: var(--color-white);
   display: flex;
@@ -650,6 +724,15 @@
 }
 
 /* PERSONALIZE SECTION */
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 425px) {
+}
 
 .personalize {
   max-width: 1100px;
@@ -682,13 +765,13 @@
 }
 .perso-para {
   margin-top: 1rem;
-  color: gray;
+  color: rgb(128, 128, 128);
   line-height: 1.5;
   padding: 0 1rem;
 }
 .perso-point,
 .perso-para {
-  color: gray;
+  color: rgb(128, 128, 128);
   margin-top: 2rem;
   padding: 0 1rem;
   line-height: 2;
@@ -703,6 +786,7 @@
 }
 
 /* Section progress  */
+
 .progress {
   max-width: 1100px;
   margin: 0 auto;
@@ -725,7 +809,7 @@
 }
 
 .pro-img-2 {
-  height: 50vh;
+  height: 450px;
   position: absolute;
 }
 .pro-buttons {
@@ -740,13 +824,31 @@
 }
 .pro-para-1 {
   margin-top: 1.3rem;
-  color: gray;
+  color: rgb(128, 128, 128);
   padding: 0 7rem 0 1rem;
   line-height: 1.9;
 }
 
 .pro-img-1 {
   width: 30vw;
+}
+
+@media only screen and (max-width: 1024px) {
+  .pro-img-2 {
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .pro-img-2 {
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .pro-img-2 {
+    height: 150px;
+  }
 }
 
 /* Strategic Container */
@@ -896,7 +998,28 @@ p {
   position: absolute;
 }
 
+@media only screen and (max-width: 1024px) {
+  .core-view {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 425px) {
+}
+
 /* LAST SECTION */
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 425px) {
+}
 
 .second {
   flex-direction: column;
