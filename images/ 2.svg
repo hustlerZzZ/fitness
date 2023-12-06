@@ -1,0 +1,23 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 574" width="1920" height="574">
+	<title>Web 1920 – 9</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m0-2645h1920v22910h-1920z"/>
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp2">
+			<path d="m0-114.5h1933.46v687.66h-1933.46z"/>
+		</clipPath>
+	</defs>
+	<style>
+		.s0 { fill: #2c3578 } 
+	</style>
+	<g id="Web 1920 – 9" clip-path="url(#cp1)">
+		<g id="Group 850">
+			<g id="Group 738" clip-path="url(#cp2)">
+				<g id="-e-">
+					<path id="Path 1387" class="s0" d="m1933.5 573.2c-78.2-26-160.4-38.1-242.3-47.5-260.5-29.7-524.2-32.5-785.3-8.3-152 14.1-303.3 37.4-455.9 42.7-152.5 5.4-308.3-7.8-450-63.9v-496h1932.1z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
